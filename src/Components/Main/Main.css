@@ -1,0 +1,25 @@
+.main-page-container {
+  margin-top: 30px;
+  width: 100%;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.todo-title {
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+.todo-main-container {
+  margin-top: 30px;
+  background: var(--white);
+  padding: 20px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.todo-main-container:focus,
+.todo-main-container:active {
+  outline: 0 !important;
+  box-shadow: 0 !important;
+}
